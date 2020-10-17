@@ -13,12 +13,12 @@ variable web_max_size {
 variable web_min_size {
   type = number
 }
-variable "subnets" {
+variable subnets {
   type = list(string)
 }
-variable "security_groups" {
+variable security_groups {
   type = list(string)
 }
-variable "web_app" {
+variable web_app {
   type = string
 }
